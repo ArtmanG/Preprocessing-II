@@ -105,6 +105,10 @@
     width: 75%;
     margin: 0 auto 3rem;
 
+    @media @tablet {
+      width: 100%;
+    }
+
     @media @mobile {
       width: 100%;
     }
@@ -138,6 +142,7 @@
 
       @media @tablet {
         width: 75%;
+        margin-bottom: 2rem;
       }
 
       @media @mobile {
@@ -149,12 +154,14 @@
 
         @media @tablet {
           .custom-btn(@button-bg, @white, 50%);
-          font-size: 1.6rem;
+          font-size: 1.5rem;
           padding: 3%;
+          margin: 0 auto;
         }
 
         @media @mobile {
           .custom-btn(@button-bg, @white, 100%);
+          font-size: 1.5rem;
         }
       }
     }
