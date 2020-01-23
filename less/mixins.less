@@ -5,3 +5,14 @@
     justify-content: @justify;
     align-items: @align;
 }
+
+.custom-btn(@bg-color:@eastern-blue, @color:@white, @width:85%) {
+    background-color: @bg-color;
+    color: @color;
+    width: @width;
+    font-size: 1.3rem;
+    padding: 4%;
+    border: none;
+    border-radius: 10px;
+    .flexbox(center, center);
+}

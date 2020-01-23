@@ -1,3 +1,4 @@
+@mobile (max-width: 500px);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -177,18 +178,18 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.navbar .logo {
+.navbar .container .logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.navbar nav {
+.navbar .container nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 50%;
 }
-.navbar a {
+.navbar .container nav a {
   text-decoration: none;
   color: #212529;
   font-size: 1.4rem;
@@ -204,6 +205,15 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home header h2 {
+  margin: 2% 0 0.5%;
+}
+.home header p {
+  padding-bottom: 2.5%;
 }
 .home .content-section {
   margin: 30px 0;
@@ -250,4 +260,16 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  width: 85%;
+  font-size: 1.3rem;
+  padding: 4%;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
