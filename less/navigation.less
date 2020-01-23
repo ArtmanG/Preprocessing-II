@@ -23,6 +23,10 @@
             .flexbox(flex-end);
             width: 50%;
 
+            @media @tablet {
+                width: 60%;
+            }
+
             @media @mobile {
                 width: 100%;
                 .flexbox(space-around, center)
@@ -32,7 +36,7 @@
                 text-decoration: none;
                 color: @shark;
                 font-size: 1.4rem;
-                padding: 0 4%;
+                margin: 0 4%;
             }
         }
     } 
