@@ -7,13 +7,26 @@
     .container {
         .flexbox(space-between, center);
 
+        @media @mobile {
+            flex-direction: column;
+        }
+
         .logo {
             .flexbox(flex-start);
+
+            @media @mobile {
+                padding: 2.5% 0 3%;
+            }
         }
 
         nav {
             .flexbox(flex-end);
             width: 50%;
+
+            @media @mobile {
+                width: 100%;
+                .flexbox(space-around, center)
+            }
     
             a {
                 text-decoration: none;
