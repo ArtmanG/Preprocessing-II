@@ -168,6 +168,32 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navbar {
+  padding: 1.5% 0;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+.navbar a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 1.4rem;
+  padding: 0 4%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

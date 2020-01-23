@@ -1,1 +1,27 @@
 // Navigation Styles here
+
+.navbar {
+    padding: 1.5% 0;
+    border-bottom: 2px dashed @silver;
+
+    .container {
+        .flexbox(space-between, center);
+    }
+
+    .logo {
+        .flexbox(flex-start);
+    }
+
+    nav {
+        .flexbox(flex-end);
+        width: 50%;
+    }
+
+    a {
+        text-decoration: none;
+        color: @shark;
+        font-size: 1.4rem;
+        padding: 0 4%;
+    }
+}
+
